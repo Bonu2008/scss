@@ -1,0 +1,32 @@
+.about {
+    padding-bottom: 60px;
+
+    .container {
+        display: flex;
+        align-items: center;
+    }
+
+    &__img {
+        border-radius: 6px;
+    }
+
+    &__info {
+        margin-left: 125px;
+    }
+
+    &__heading__2 {
+        color: #333D4B;
+        font-family: "Barlow";
+        font-size: 40px;
+        font-weight: 900;
+        margin-bottom: 70px;
+    }
+
+    &__text {
+        width: 540px;
+        color: #333D4B;
+        font-family: "Barlow";
+        font-size: 16px;
+        font-weight: 400;
+    }
+}

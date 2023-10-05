@@ -1,0 +1,30 @@
+.hero {
+    padding-top: 20px;
+
+    .container {
+        background-image: url("../../imges/hero-img.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 1280px;
+        height: 650px;
+    }
+
+    &__heading {
+        color: #FEFCF7;
+        font-family: "Barlow";
+        font-size: 40px;
+        font-weight: 700;
+        margin-top: 137px;
+        margin-left: 85px;
+        display: inline-block;
+    }
+
+    &__text {
+        width: 445px;
+        color: #FEFCF7;
+        font-family: "Barlow";
+        font-size: 16px;
+        font-weight: 400;
+        margin-left: 85px;
+    }
+}

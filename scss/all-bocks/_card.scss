@@ -1,0 +1,40 @@
+.card {
+    margin-top: 244px;
+
+    .container {
+        display: flex;
+        background-color: #2C343E;
+        border-radius: 12px;
+        margin-bottom: 168px;
+        position: relative;
+    }
+
+    &__info {
+        margin-left: 85px;
+    }
+
+    &__heading__3 {
+        color: #FEFCF7;
+        font-family: "Barlow";
+        font-size: 40px;
+        font-weight: 900;
+        margin-top: 100px;
+    }
+
+    &__text {
+        width: 540px;
+        color: #FEFCF7;
+        font-family: "Barlow";
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 32px;
+        margin-bottom: 176px;
+    }
+
+    &__img {
+        position: absolute;
+        margin-left: 750px;
+        margin-top: -95px;
+        border-radius: 12px;
+    }
+}
